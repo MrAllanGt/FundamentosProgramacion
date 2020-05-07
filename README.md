@@ -1,2 +1,2 @@
 # FundamentosProgramacion
-Repositorio de código para el curso de Fundamentos de Programación por Mr.Allan en Youtube.
+Repositorio de código para el Curso de Fundamentos de Programación en https://youtube.com/c/MrAllan
