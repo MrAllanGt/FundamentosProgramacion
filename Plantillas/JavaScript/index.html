@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Suma números</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id="main">
+        <h1>Suma de números</h1>
+        <h5>Ingresa dos números enteros</h5>
+        
+        <!-- UI (User Interface) -->
+        <label for="a">Ingresa valor de a: </label>
+        <input type="number" id="a"/>
+        <span></span>
+        <label for="b">Ingresa valor de b: </label>
+        <input type="number" id="b"/>
+        <span></span>
+
+        <!-- Botón para ejecutar script -->
+        <button onclick="result()">Haz clic para sumar</button>
+        
+        <!-- Sección de salida -->
+        <section id="output">
+            <p id="sum">Total = 0</p>
+        </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
