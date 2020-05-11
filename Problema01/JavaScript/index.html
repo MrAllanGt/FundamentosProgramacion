@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Expresiones</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id="main">
+      <h1>Expresiones</h1>
+      <h5>Jerarquía de operadores aritméticos</h5>
+        
+      <!-- UI (User Interface) -->
+      <label for="a">Ingresa valor de a: </label>
+      <input type="number" id="a"/>
+      <span></span>
+      <label for="b">Ingresa valor de b: </label>
+      <input type="number" id="b"/>
+      <span></span>
+      <label for="a">Ingresa valor de c: </label>
+		  <input type="number" id="c"/>
+		  <span></span>
+
+      <!-- Botón para ejecutar script -->
+      <button onclick="result()">Calcular expresiones</button>
+
+      <!-- Sección de salida -->
+      <section id="output">
+        <p id="one">a + b * c = 0.00</p>
+        <p id="two">b + a mod c = 0.00</p>
+        <p id="three">b / a mod c = 0.00</p>
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
