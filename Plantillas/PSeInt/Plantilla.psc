@@ -1,10 +1,10 @@
 Algoritmo Plantilla
-	// ANÁLISIS DEL PROBLEMA
+	// AN√ÅLISIS DEL PROBLEMA
 	// Outputs:
 	// Inputs:
 	// Aux:
 	
-	// DISEÑO DEL ALGORITMO
+	// DISE√ëO DEL ALGORITMO
 	// Vars/Cons
 	
 	// Inputs
