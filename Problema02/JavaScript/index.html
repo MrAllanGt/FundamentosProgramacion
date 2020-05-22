@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Área y Perímetro de un Triángulo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id="main">
+        <h1>Área y perímetro</h1>
+        <h5>Ingresa los lados del triángulo</h5>
+        
+        <!-- UI (User Interface) -->
+        <label for="sideA">Lado A: </label>
+        <input type="number" id="sideA"/>
+        <span></span>
+        <label for="sideB">Lado B: </label>
+        <input type="number" id="sideB"/>
+        <span></span>
+        <label for="sideC">Lado C: </label>
+		    <input type="number" id="sideC"/>
+		    <span></span>
+        
+        <!-- Botón para ejecutar script -->
+        <button onclick="result()">Calcula área y perímetro</button>
+        
+        <!-- Sección de salida -->
+        <section id="output">
+            <p id="area">Área = 0.0000</p>
+            <p id="perimeter">Perímetro = 0.0000</p>
+        </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
