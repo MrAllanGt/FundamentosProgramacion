@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tiempo de Aire</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id="main">
+        <h1>Tiempo de Aire</h1>
+        <h5>Haz tu recarga aquí</h5>
+        
+        <!-- UI (User Interface) -->
+        <label for="phone">Teléfono: </label>
+        <input type="text" id="phone"/>
+        <span></span>
+
+        <label for="recharge">Recarga: </label>
+        <input type="number" id="recharge"/>
+        <span></span>
+        
+        <!-- Botón para ejecutar script -->
+        <button onclick="result()">Finaliza tu compra</button>
+        
+        <!-- Sección de salida -->
+        <section id="output">
+            <p id="msg">No se ha hecho ningua recarga...</p>
+        </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
