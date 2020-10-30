@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Operadores Lógicos en JS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id="main">
+        <h1>Detalles de compra</h1>
+        <h5>Ingrese la información requerida</h5>
+        
+        <!-- UI (User Interface) -->
+        <label for="brand">Marca: &nbsp;&nbsp;</label>
+        <input type="text" id="brand"/>
+        <span></span>
+        <label for="card">Tarjeta: &nbsp;</label>
+        <input type="text" id="card"/>
+        <span></span>
+        <label for="shop">Compra: </label>
+        <input type="number" id="shop"/>
+        <span></span>
+        
+        <!-- Botón para ejecutar script -->
+        <button onclick="result()">Generar detalle de pago</button>
+        
+        <!-- Sección de salida -->
+        <section id="output">
+            <p id="discRate">Descuento del...&nbsp; 0%</p>
+            <p id="discount">Total descuento...&nbsp; 0.00</p>
+            <p id="total">Total a pagar.........&nbsp; 0.00</p>
+        </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

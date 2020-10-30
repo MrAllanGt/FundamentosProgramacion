@@ -1,0 +1,3 @@
+TOTAL_TARGET = 200.00
+BRAND_TARGET = "nike"
+CARD_TARGET = "visa"
